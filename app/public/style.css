@@ -1,0 +1,115 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 150%;
+    background: url(../images/wynwoodtake2.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    }
+    .jumbotron {
+        background: rgba(81, 47, 121, 0.8);
+        margin-top: 1em;
+    }
+    h1{
+        color: rgba(238, 238, 138, 0.9)!important;
+        text-shadow: 3px 3px 5px #000000;
+    }
+    h2 {
+        color: rgba(238, 238, 138, 0.9);
+        font-size: 1.5em;
+        text-shadow: 4px 4px 6px #000000;
+    }
+    hr{
+        margin: 40px;
+        border: none;
+        height: 4px;  
+    }
+    hr.rainbow{
+        background-image: -webkit-linear-gradient(left, rgba(255,2,5,.5), rgba(137,11,138,.5), rgba(27,123,187,.5), rgba(47,195,44,.5), rgba(253,201,1,.5), rgba(255,91,2,.5), #ccc 45%, #ccc 55%, rgba(255,91,2,.5), rgba(253,201,1,.5), rgba(47,195,44,.5), rgba(27,123,187,.5), rgba(137,11,138,.5), rgba(255,2,5,.5));
+        background-image: -moz-linear-gradient(left, rgba(255,2,5,.5), rgba(137,11,138,.5), rgba(27,123,187,.5), rgba(47,195,44,.5), rgba(253,201,1,.5), rgba(255,91,2,.5), #ccc 45%, #ccc 55%, rgba(255,91,2,.5), rgba(253,201,1,.5), rgba(47,195,44,.5), rgba(27,123,187,.5), rgba(137,11,138,.5), rgba(255,2,5,.5)); 
+        background-image: -ms-linear-gradient(left, rgba(255,2,5,.5), rgba(137,11,138,.5), rgba(27,123,187,.5), rgba(47,195,44,.5), rgba(253,201,1,.5), rgba(255,91,2,.5), #ccc 45%, #ccc 55%, rgba(255,91,2,.5), rgba(253,201,1,.5), rgba(47,195,44,.5), rgba(27,123,187,.5), rgba(137,11,138,.5), rgba(255,2,5,.5));
+        background-image: -o-linear-gradient(left, rgba(255,2,5,.5), rgba(137,11,138,.5), rgba(27,123,187,.5), rgba(47,195,44,.5), rgba(253,201,1,.5), rgba(255,91,2,.5), #ccc 45%, #ccc 55%, rgba(255,91,2,.5), rgba(253,201,1,.5), rgba(47,195,44,.5), rgba(27,123,187,.5), rgba(137,11,138,.5), rgba(255,2,5,.5));
+    } 
+    
+    
+    hr.rainbow2{
+        background: #ff0000;
+        background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#ff0000), color-stop(25%,#ffff00), color-stop(50%,#00ff00), color-stop(75%,#00ffff), color-stop(100%,#0000ff));
+        background: -webkit-linear-gradient(-45deg, #ff0000 0%,#ffff00 25%,#00ff00 50%,#00ffff 75%,#0000ff 100%);
+        background: -moz-linear-gradient(-45deg, #ff0000 0%, #ffff00 25%, #00ff00 50%, #00ffff 75%, #0000ff 100%);
+        background: -o-linear-gradient(-45deg, #ff0000 0%,#ffff00 25%,#00ff00 50%,#00ffff 75%,#0000ff 100%);
+        background: -ms-linear-gradient(-45deg, #ff0000 0%,#ffff00 25%,#00ff00 50%,#00ffff 75%,#0000ff 100%);
+        background: linear-gradient(-45deg, #ff0000 0%,#ffff00 25%,#00ff00 50%,#00ffff 75%,#0000ff 100%);
+    }
+    body {
+        margin:0;
+        background-color:#191919;
+        min-height:100vh;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        font-family:Helvetica,Sans-serif;
+      }
+      a {
+        text-decoration:none;
+        color:#FFF;
+      }
+      .rainbow-button {
+        width:calc(20vw + 6px);
+        height:calc(8vw + 6px);
+        background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+        border-radius:5px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        text-transform:uppercase;
+        font-size:3vw;
+        font-weight:bold;
+      }
+      .rainbow-button:after {
+        content:attr(alt);
+        width:20vw;
+        height:8vw;
+        background-color:#191919;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+      }
+      .rainbow-button:hover {
+        animation:slidebg 2s linear infinite;
+      }
+      
+      @keyframes slidebg {
+        to {
+          background-position:20vw;
+        }
+      }
+      .wrapper {
+        padding: 1em;
+        margin-left: 20em;
+    }
+    .links {
+        color: rgba(238, 238, 138, 0.9)!important;
+        text-shadow: 3px 3px 5px #000000;
+        text-align: center;
+    }
+    a {
+        color: rgba(238, 238, 138, 0.9);
+    }
+    .well {
+        background: rgba(173, 95, 189, 0.8);
+        margin-top: 2em;
+        border: hotpink;
+        color: rgba(238, 238, 138, 0.9)!important;
+        text-shadow: 3px 3px 5px #000000;
+    }
+    .form-group{
+        color: rgba(238, 238, 138, 0.9)!important;
+        text-shadow: 3px 3px 5px #000000;
+    }
+    .form-control {
+        margin-right: 8em;
+    }
