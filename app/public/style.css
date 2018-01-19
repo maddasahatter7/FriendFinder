@@ -98,6 +98,10 @@ body {
     }
     a {
         color: rgba(238, 238, 138, 0.9);
+        text-align: center;
+    }
+    a:hover {
+        color: rgba(236, 170, 231, 0.9);
     }
     .well {
         background: rgba(173, 95, 189, 0.8);
